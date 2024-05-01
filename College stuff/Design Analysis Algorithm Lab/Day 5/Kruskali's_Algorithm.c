@@ -1,0 +1,4 @@
+/*
+Find the minimum cost spanning tree of given undirected graph using Kruskaliy
+algorithm
+*/
