@@ -1,3 +1,12 @@
+/* Output:
+
+The maximum possible flow is 23
+
+
+*/
+
+
+
 #include <limits.h>
 #include <stdbool.h>
 #include <stdio.h>

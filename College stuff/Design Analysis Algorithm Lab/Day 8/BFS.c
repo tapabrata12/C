@@ -1,3 +1,17 @@
+/*Output:
+
+Enter the number of vertices: 4
+
+Enter graph data in Matrix form:
+0 1 1 1
+0 0 0 1
+0 0 0 0
+0 0 1 0
+Enter starting vertex: 1
+The reachable nodes are: 2      3       4
+
+*/
+
 #include <stdio.h>
 
 int a[20][20], q[20], visited[20], n, i, j, f = 0, r = -1;
@@ -35,18 +49,3 @@ int main(void) {
     } 
     return 0;
 }
-
-
-/*
-
-Enter the number of vertices: 4
-
-Enter graph data in Matrix form:
-0 1 1 1
-0 0 0 1
-0 0 0 0
-0 0 1 0
-Enter starting vertex: 1
-The reachable nodes are: 2      3       4
-
-*/

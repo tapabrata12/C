@@ -1,3 +1,27 @@
+/*Output:
+
+
+Enter the number of vertices: 4
+
+Enter the adjacency matrix:
+0 1 0 0
+1 0 1 1
+0 1 0 0
+0 1 0 0
+
+0->1
+1->2
+1->3
+
+Graph is connected
+
+
+
+
+*/
+
+
+
 #include <stdio.h>
 
 int a[20][20], reach[20], n;
